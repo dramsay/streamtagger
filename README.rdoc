@@ -9,26 +9,26 @@ Streamtagger provides command-line ability to save the artist and name of the tr
 
 == FEATURES/PROBLEMS:
 
-  Streamtagger is compatible with Mac OS X only.
+Streamtagger is compatible with Mac OS X only.
 
 == SYNOPSIS:
 
-  I usually work in Terminal or MacVim and I don't want to have to switch to iTunes and copy the information if I hear a track I love and want to check out later. 
+I usually work in Terminal or MacVim and I don't want to have to switch to iTunes and copy the information if I hear a track I love and want to check out later. 
 
-  With streamtagger installed, all I have to do is type 'stag' from the command line and the info is stored without breaking my current train of thought. 
-  The storage file defaults to /Users/<your username>/Desktop/streamtagger.txt, but can be changed by adding a TAGGER_FILE environment variable with the value of your 
-  preferred path.
+With streamtagger installed, all I have to do is type 'stag' from the command line and the info is stored without breaking my current train of thought. 
+The storage file defaults to /Users/<your username>/Desktop/streamtagger.txt, but can be changed by adding a TAGGER_FILE environment variable with the value of your 
+preferred path.
 
-  (By the way, I recommend Groove Salad on http://soma.fm.)
+(By the way, I recommend Groove Salad on http://soma.fm.)
 
 == REQUIREMENTS:
 
-  Streamtagger depends on a fork of the rubyosa gem (hosted at http://github.com/dramsay/rubyosa) and version 0.3.8.4 of the libxml-ruby gem.
+Streamtagger depends on a fork of the rubyosa gem (hosted at http://github.com/dramsay/rubyosa) which in turn depends on version 0.3.8.4 of the libxml-ruby gem.
 
 == INSTALL:
   
-  sudo gem sources -a http://gems.github.com     [one-time only]
-  sudo gem install dramsay-streamtagger
+sudo gem sources -a http://gems.github.com     [one-time only]
+sudo gem install dramsay-streamtagger
 
 == LICENSE:
 
