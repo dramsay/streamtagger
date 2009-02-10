@@ -29,7 +29,7 @@ Streamtagger depends on a fork of the rubyosa gem (hosted at http://github.com/d
 
 If you haven't already, add gems.github.com to your gem sources (you only need to do this once):
 
-sudo gem sources -a http://gems.github.com 
+sudo gem sources -a http://gems.github.com[http://gems.github.com]
 
 Then, install the gem: 
 
