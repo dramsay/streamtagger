@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'rbosa'
+
+tagger_file = ENV["TAGGER_FILE"] || File.expand_path("~/Desktop/streamtagger.txt")
+
+itunes = OSA.app("iTunes")
+
+File.open(tagger_file, "a") do |f|
+  f.puts itunes.current_stream_title
+end
