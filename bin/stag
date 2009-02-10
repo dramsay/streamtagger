@@ -3,7 +3,7 @@
 require 'rubygems'
 require 'rbosa'
 
-tagger_file = ENV["TAGGER_FILE"] || File.expand_path("~/Desktop/streamtagger.txt")
+tagger_file = File.expand_path(ENV["TAGGER_FILE"]) || File.expand_path("~/Desktop/streamtagger.txt")
 
 itunes = OSA.app("iTunes")
 
