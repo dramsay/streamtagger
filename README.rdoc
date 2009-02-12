@@ -19,6 +19,8 @@ With streamtagger installed, all I have to do is type 'stag' from the command li
 The storage file defaults to /Users/<your username>/Desktop/streamtagger.txt, but can be changed by adding a TAGGER_FILE environment variable with the value of your 
 preferred path.
 
+If you'd like to quickly see your tagged songs, you can use "stag list" to print out your song file.
+
 (By the way, I recommend Groove Salad on http://soma.fm.)
 
 == REQUIREMENTS:

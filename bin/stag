@@ -9,8 +9,12 @@ else
   tagger_file = File.expand_path("~/Desktop/streamtagger.txt")
 end
 
-itunes = OSA.app("iTunes")
+if ARGV[0] == 'list'
+  print `cat #{tagger_file}`
+else
+  itunes = OSA.app("iTunes")
 
-File.open(tagger_file, "a") do |f|
-  f.puts itunes.current_stream_title
+  File.open(tagger_file, "a") do |f|
+    f.puts itunes.current_stream_title
+  end
 end
