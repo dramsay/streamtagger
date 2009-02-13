@@ -36,6 +36,20 @@ If you haven't already, add gems.github.com to your gem sources (you only need t
 Then, install the gem: 
 
   sudo gem install dramsay-streamtagger
+  
+== USAGE:
+
+To add the current stream track info to your tagger file:
+
+  stag
+
+To show the current contents of your tagger file:
+
+  stag list
+
+To clear the ocntents of your tagger file:
+
+  stag clear
 
 == LICENSE:
 
