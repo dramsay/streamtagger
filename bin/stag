@@ -11,6 +11,8 @@ end
 
 if ARGV[0] == 'list'
   print `cat #{tagger_file}`
+elsif ARGV[0] == 'clear'
+  `> #{tagger_file}`
 else
   itunes = OSA.app("iTunes")
 
