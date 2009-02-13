@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
    s.name = "streamtagger"
-   s.version = "0.1.3"
+   s.version = "0.1.4"
    s.authors = "Doug Ramsay"
    s.email = "dramsay on github"
    s.summary = "Streamtagger allows you to tag the current stream playing in iTunes, storing info to a text file"
