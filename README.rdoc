@@ -17,7 +17,7 @@ I usually work in Terminal or MacVim and I don't want to have to switch to iTune
 
 With streamtagger installed, all I have to do is type 'stag' from the command line and the info is stored without breaking my current train of thought. 
 The storage file defaults to /Users/<your username>/Desktop/streamtagger.txt, but can be changed by adding a TAGGER_FILE environment variable with the value of your 
-preferred path.
+preferred path. If you want the streamed track info printed out to the terminal as well as added to your tagger file, add a TAGGER_INFO environment variable.
 
 If you'd like to quickly see your tagged songs, you can use "stag list" to print out your song file.
 
@@ -50,6 +50,10 @@ To show the current contents of your tagger file:
 To clear the ocntents of your tagger file:
 
   stag clear
+
+To simply display the current stream track info without adding it to your tagger file:
+
+  stag info
 
 == LICENSE:
 

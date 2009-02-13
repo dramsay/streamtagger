@@ -13,9 +13,12 @@ if ARGV[0] == 'list'
   print `cat #{tagger_file}`
 elsif ARGV[0] == 'clear'
   `> #{tagger_file}`
+elsif ARGV[0] == 'info'
+  itunes = OSA.app("iTunes")
+  puts itunes.current_stream_title
 else
   itunes = OSA.app("iTunes")
-
+  puts itunes.current_stream_title if ENV["TAGGER_INFO"]
   File.open(tagger_file, "a") do |f|
     f.puts itunes.current_stream_title
   end
